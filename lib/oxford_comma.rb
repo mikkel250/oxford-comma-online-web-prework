@@ -8,7 +8,7 @@ def oxford_comma(array)
     for i in array.length[0..-2]
       temp_arr << (i + ", ")
     end
-    
+    temp_arr << ("and #{array[-1]")
   end
   
 end
