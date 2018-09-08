@@ -4,7 +4,11 @@ def oxford_comma(array)
   elsif array.length == 2
     array.join(" and ")
   elsif array.length > 2
-    for i 
+    temp_arr
+    for i in array.length[0..-2]
+      temp_arr << (i + ", ")
+    end
+    
   end
   
 end
