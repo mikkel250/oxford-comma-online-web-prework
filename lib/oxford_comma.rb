@@ -10,6 +10,7 @@ def oxford_comma(array)
     end
     last = "and #{array[-1]}"
     temp_arr << (last)
+    puts temp_arr
   end
   
 end
